@@ -2,6 +2,12 @@
 A Python3 webserver aimed for Linux, exposing Xiaomi Mijia Bluetooth measures in the Prometheus format.
 
 [![Build Status](https://travis-ci.com/sdenel/xiaomi-mijia-bluetooth-to-prometheus.svg?branch=master)](https://travis-ci.com/sdenel/xiaomi-mijia-bluetooth-to-prometheus)
+
+An example with Grafana reading the Prometheus DB:
+
+![Grafana screenshot example](grafana_screenshot_example.png)
+
+
 # Installation
 
 ## Connecting the probe for the first time
