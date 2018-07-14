@@ -1,7 +1,7 @@
 # xiaomi-mijia-bluetooth-to-prometheus
 A Python3 webserver aimed for Linux, exposing Xiaomi Mijia Bluetooth measures in the Prometheus format.
 
-#Installation
+# Installation
 
 ## Connecting the first for the first time
 First, connect the probe to your computer:
