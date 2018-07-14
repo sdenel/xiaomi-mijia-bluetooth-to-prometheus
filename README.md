@@ -32,8 +32,7 @@ Example of job configuration:
 ```
 
 # Tests
-See also tests/, used by travis for CI.
-Run:
+See also .travis.yml.
 ```bash
 # pep install pycodestyle
 pycodestyle --first webserver.py
