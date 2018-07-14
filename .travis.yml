@@ -1,9 +1,9 @@
-sudo: false
-dist: trusty
-
-jobs:
-  include:
-    - stage: Install
-      script: scripts/install_test_env.sh
-    - stage: Unit Tests
-      script: tests/launch_tests.sh
+language: python
+python:
+  - "3.5"
+  - "3.6"
+install:
+  - pip install pycodestyle
+script:
+  - pycodestyle --first webserver.py
+  - python3 -m doctest -v webserver.py

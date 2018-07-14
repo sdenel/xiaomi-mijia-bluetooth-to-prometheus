@@ -1,9 +1,10 @@
 # xiaomi-mijia-bluetooth-to-prometheus
 A Python3 webserver aimed for Linux, exposing Xiaomi Mijia Bluetooth measures in the Prometheus format.
 
+[![Build Status](https://travis-ci.com/sdenel/xiaomi-mijia-bluetooth-to-prometheus.svg?branch=master)](https://travis-ci.com/sdenel/xiaomi-mijia-bluetooth-to-prometheus)
 # Installation
 
-## Connecting the first for the first time
+## Connecting the probe for the first time
 First, connect the probe to your computer:
 ```bash
 sudo hcitool lecc YOUR_PROBE_MAC_ADDRESS
@@ -25,6 +26,7 @@ Example of job configuration:
 ```
 
 # Tests
+See also tests/, used by travis for CI.
 Run:
 ```bash
 # pep install pycodestyle
